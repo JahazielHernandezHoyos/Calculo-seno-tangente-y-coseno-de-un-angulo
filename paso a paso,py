@@ -1,0 +1,27 @@
+import math
+
+
+#se introduce un angulo cualquiera 
+
+s = input("Escribe un numero:\n")
+s1 = float (s)
+
+#luego de un float lo convertimos en un radians
+
+s2= math.radians(s1)
+
+
+x = math.radians(9)
+y = math.radians(10)
+z = math.radians(3)
+
+
+
+#y luego despues de convertido sacamos el seno 
+print(math.sin(s2))
+
+print(math.sin(x))
+print(math.cos(y))
+print(math.tan(z))
+
+#hacer simulacion de lo pasasdo con el traductor de señas solo con 3 lines de codigo hasta llegar al punto del error para condicionarlo
